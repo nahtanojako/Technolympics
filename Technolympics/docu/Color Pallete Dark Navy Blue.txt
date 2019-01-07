@@ -1,0 +1,8 @@
+#15eded - bluegreen
+#029cf5 - blue
+#45609f - navy blue
+#0c1854 - dark navy blue
+#122036 - black
+#606f7e - gray
+
+

@@ -1,0 +1,137 @@
+
+/* FOR TABLET PORTRAIT ==================================*/
+@media (min-width: 676px){
+	.container {
+		max-width: 668px;
+	}
+	
+	/* HEADER STYLES ========================================== */
+	#header-main {
+		padding: 0 !important;
+	}
+
+	/* NAVIGATION STYLES ===================================== */
+	.nav-mobile {
+		display: none;
+	}
+
+	.nav-main .nav-desktop {
+		display: block !important;
+	}
+
+	.nav-desktop .menu {
+		display: flex;
+	}
+
+	.menu li {
+		padding: 0.8rem 0;
+		margin-left: 0.8rem;
+		margin-right: 0.8rem;
+	}
+
+	.menu li.current,
+	.menu li:hover {
+		border-bottom: 2px solid var(--white);
+	}
+
+	.menu li.current a,
+	.menu li:hover a {
+		color: var(--white);
+	}
+
+	.menu li a i {
+		margin-right: 5px;
+	}
+
+	.menu li a {
+		padding: 0.8rem 0;
+
+	}
+
+	.header-main-wrap .nav-main {
+		order: 1 !important;
+	}
+
+
+	/* HOME SECTION STYLES==============================================*/
+	.section-home-wrap {
+		top: 25vh !important;
+	}
+
+
+	/* CONTEST SECTION STYLES ==========================================*/
+	.section-contest-wrap {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.section-contest-item {
+		flex-basis: 48%;
+	}
+
+	.section-contest-item p {
+		font-size: 1.5rem !important;
+	}
+
+
+	/* CONTACT STYLES ================================================*/
+	.d-flex {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.d-flex-items {
+		flex-basis: 48%;
+		max-width: 48%;
+	}
+
+	/* FOOTER STYLES =================================================*/
+	footer span {
+		font-size: 1.4rem !important;
+	}
+}
+
+
+/* FOR LAPTOP / DESKTOP ===============================================*/
+@media (min-width: 992px){
+
+	.container {
+		max-width: 900px;
+	}
+	
+	/* ABOUT SECTION ==================================================*/
+	.section-about-wrap {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.about-img {
+		background-position: -25vw 0% !important;
+	}
+
+	.about-info,
+	.about-img {
+		flex-basis: 48%;
+		max-width: 48%;
+	}
+
+	.about-info h4,
+	.about-info p {
+		margin-bottom: 1rem !important;
+	}
+}
+
+
+/* FOR EXTRA LARGE SCREENS ===============================================*/
+@media (min-width: 1200px){
+
+	.container {
+		max-width: 1120px;
+	}
+	
+	/* CONTEST SECTION ===================================================*/
+	.section-contest-item {
+		flex-basis: 32%;
+	}
+}
